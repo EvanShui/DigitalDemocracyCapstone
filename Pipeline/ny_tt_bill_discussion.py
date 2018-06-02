@@ -14,6 +14,10 @@ from Predict_Transitions import predict, enhance_dictionary
 '''
 
 class model_wrapper: 
+    '''
+    model_wrapper stores the naive_bayes model and the vector model in memory
+    takes in path to vector and nb file
+    '''
     def __init__(self, model_path, vector_path): 
         self.model_path = model_path
         self.vector_path = vector_path

@@ -387,6 +387,7 @@ def predict(new_transcript):
     return enhanced_dictionary
     
 
+'''
 def main():
     new_transcript = [{'start':1, 'end':9, 'text':'we are starting', 'video_id':1}, 
      {'start':9, 'end':12, 'text':'we keep going on assembly bill three four five six', 'video_id':1},
@@ -394,7 +395,8 @@ def main():
      {'start':21, 'end':22, 'text':'what do you think of senate bill 134?', 'video_id':1}]
     transition_dictionary = predict(new_transcript)
     enhanced_dictionary = enhance_dictionary(new_transcript, transition_dictionary)
+    print(enhanced_dictionary)
 
 if __name__ == "__main__":
     main()
-
+'''

@@ -43,6 +43,8 @@ def convert_numbers(lines):
             if len(tokens) > 1:
                 parsed = parse_number(tokens)
                 updated.append(line.replace(match.group(0).strip(), parsed))
+            else:
+                updated.append(line)
         else:
             updated.append(line)
     return updated
